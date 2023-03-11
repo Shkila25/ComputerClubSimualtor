@@ -61,7 +61,7 @@ namespace ComputerClubSimualtor
                             {
                                 if (newClient.CheckSolvency(_computers[computerNumber]))
                                 {
-                                    Console.WriteLine("Клиент оплатил и сел за комп "+ (computerNumber + 1));
+                                    Console.WriteLine("Клиент оплатил и сел за компьютер "+ (computerNumber + 1));
                                     _money += newClient.Pay();
                                     _computers[computerNumber].BecomeTaken(newClient);
                                 }
@@ -79,7 +79,7 @@ namespace ComputerClubSimualtor
                     else
                     {
                         CreateNewClients(1, new Random());
-                        Console.WriteLine("неверный вводБ повторите снова");
+                        Console.WriteLine("неверный ввод повторите снова");
                     }
 
                     Console.WriteLine("Чтобы перейти к следующему клиенту, нажмите любую клавишу");
