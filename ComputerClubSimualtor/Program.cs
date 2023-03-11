@@ -7,7 +7,7 @@ namespace ComputerClubSimualtor
     {
         static void Main(string[] args)
         {
-            ComputerClub computerClub = new ComputerClub(8);
+            ComputerClub computerClub = new ComputerClub(8); // Виталик
             computerClub.Work();
         }
         class ComputerClub
