@@ -88,6 +88,7 @@ namespace ComputerClubSimualtor
                     SpendOneMinutes();
                 }
             }
+            //grgrgrgr
 
             public void ShowAllcomputersSate()
             {
