@@ -8,7 +8,7 @@ namespace ComputerClubSimualtor
         static void Main(string[] args)
         {
             ComputerClub computerClub = new ComputerClub(8); // Виталик Красавик гений лучший в мире
-            computerClub.Work();// ХЕР 
+            computerClub.Work();// ХЕР В жопу и пенис
         }
         class ComputerClub
         {
