@@ -7,6 +7,7 @@ namespace ComputerClubSimualtor
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
             ComputerClub computerClub = new ComputerClub(8);
             computerClub.Work();
         }
