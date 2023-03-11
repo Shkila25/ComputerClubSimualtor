@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 namespace ComputerClubSimualtor
 {
     internal class Program
-    {
+    {//f fgsfsdgdgzdg
         static void Main(string[] args)
         {
             ComputerClub computerClub = new ComputerClub(8); // Виталик
